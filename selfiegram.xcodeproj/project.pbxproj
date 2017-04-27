@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0713C2291EB18D6E008D6AB3 /* SelfieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713C2281EB18D6E008D6AB3 /* SelfieCellTableViewCell.swift */; };
+		0713C22B1EB18DA5008D6AB3 /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0713C22A1EB18DA5008D6AB3 /* SelfieCell.swift */; };
+		071486191E9F191100A0157A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071486181E9F191100A0157A /* ProfileViewController.swift */; };
 		073C302F1E9C77A2001046F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C302E1E9C77A2001046F5 /* AppDelegate.swift */; };
 		073C30311E9C77A2001046F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C30301E9C77A2001046F5 /* ViewController.swift */; };
 		073C30341E9C77A2001046F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073C30321E9C77A2001046F5 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		073C30391E9C77A2001046F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073C30371E9C77A2001046F5 /* LaunchScreen.storyboard */; };
 		073C30441E9C77A3001046F5 /* selfiegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C30431E9C77A3001046F5 /* selfiegramTests.swift */; };
 		073C304F1E9C77A3001046F5 /* selfiegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C304E1E9C77A3001046F5 /* selfiegramUITests.swift */; };
+		07AEA7851EAEE78C00576BCE /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEA7841EAEE78C00576BCE /* FeedTableViewController.swift */; };
+		07AEA7871EAEF84000576BCE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEA7861EAEF84000576BCE /* User.swift */; };
+		07AEA7891EAEF97200576BCE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEA7881EAEF97200576BCE /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0713C2281EB18D6E008D6AB3 /* SelfieCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCellTableViewCell.swift; sourceTree = "<group>"; };
+		0713C22A1EB18DA5008D6AB3 /* SelfieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
+		071486181E9F191100A0157A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		073C302B1E9C77A2001046F5 /* selfiegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfiegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		073C302E1E9C77A2001046F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		073C30301E9C77A2001046F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		073C304A1E9C77A3001046F5 /* selfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		073C304E1E9C77A3001046F5 /* selfiegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfiegramUITests.swift; sourceTree = "<group>"; };
 		073C30501E9C77A3001046F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AEA7841EAEE78C00576BCE /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		07AEA7861EAEF84000576BCE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		07AEA7881EAEF97200576BCE /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,8 @@
 		073C30221E9C77A2001046F5 = {
 			isa = PBXGroup;
 			children = (
+				0713C2281EB18D6E008D6AB3 /* SelfieCellTableViewCell.swift */,
+				07AEA7861EAEF84000576BCE /* User.swift */,
 				073C302D1E9C77A2001046F5 /* selfiegram */,
 				073C30421E9C77A3001046F5 /* selfiegramTests */,
 				073C304D1E9C77A3001046F5 /* selfiegramUITests */,
@@ -100,9 +114,13 @@
 				073C302E1E9C77A2001046F5 /* AppDelegate.swift */,
 				073C30301E9C77A2001046F5 /* ViewController.swift */,
 				073C30321E9C77A2001046F5 /* Main.storyboard */,
+				07AEA7841EAEE78C00576BCE /* FeedTableViewController.swift */,
+				07AEA7881EAEF97200576BCE /* Post.swift */,
 				073C30351E9C77A2001046F5 /* Assets.xcassets */,
 				073C30371E9C77A2001046F5 /* LaunchScreen.storyboard */,
 				073C303A1E9C77A2001046F5 /* Info.plist */,
+				071486181E9F191100A0157A /* ProfileViewController.swift */,
+				0713C22A1EB18DA5008D6AB3 /* SelfieCell.swift */,
 			);
 			path = selfiegram;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 				TargetAttributes = {
 					073C302A1E9C77A2001046F5 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = J25898WGX5;
 						ProvisioningStyle = Automatic;
 					};
 					073C303E1E9C77A3001046F5 = {
@@ -259,8 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0713C2291EB18D6E008D6AB3 /* SelfieCellTableViewCell.swift in Sources */,
+				071486191E9F191100A0157A /* ProfileViewController.swift in Sources */,
 				073C30311E9C77A2001046F5 /* ViewController.swift in Sources */,
+				0713C22B1EB18DA5008D6AB3 /* SelfieCell.swift in Sources */,
 				073C302F1E9C77A2001046F5 /* AppDelegate.swift in Sources */,
+				07AEA7891EAEF97200576BCE /* Post.swift in Sources */,
+				07AEA7871EAEF84000576BCE /* User.swift in Sources */,
+				07AEA7851EAEE78C00576BCE /* FeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J25898WGX5;
 				INFOPLIST_FILE = selfiegram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Isaac.selfiegram;
@@ -426,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J25898WGX5;
 				INFOPLIST_FILE = selfiegram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Isaac.selfiegram;
@@ -507,6 +534,7 @@
 				073C30551E9C77A3001046F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		073C30561E9C77A3001046F5 /* Build configuration list for PBXNativeTarget "selfiegramTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +543,7 @@
 				073C30581E9C77A3001046F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		073C30591E9C77A3001046F5 /* Build configuration list for PBXNativeTarget "selfiegramUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +552,7 @@
 				073C305B1E9C77A3001046F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
